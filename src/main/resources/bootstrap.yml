@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    config:
+      uri: ${URL_CONFIG_SERVICE}
+      username:  ${CONFIG_USER}
+      password: ${CONFIG_PASSWORD}
